@@ -1,0 +1,76 @@
+﻿@model Megazine.Models.News.News
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Add Your News</h1>
+<div class="add-form">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-7 ">
+                <form method="Post" enctype="multipart/form-data" asp-action="Create" asp-controller="News">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="Title"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="Title" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="Description"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="Description" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="Category"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="Category" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="ImageUrl"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="ImageUrl" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="button-part mt-4">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <input type="submit" value="Submit" class="btn btn-primary" />
+
+                            </div>
+                            <div class="col-md-10">
+                                <a asp-action="Index" asp-controller="News" class="btn btn-danger">Back To Index</a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

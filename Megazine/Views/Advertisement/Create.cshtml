@@ -1,0 +1,63 @@
+﻿@model Megazine.Models.Advertisement.Advertisement;
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Add Your Advertisement</h1>
+<div class="add-form">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-7 ">
+                <form method="Post" enctype="multipart/form-data" asp-action="Create" asp-controller="Advertisement">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="OwenerName"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="OwenerName" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="Amount"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="Amount" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="advertiseImageFile"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="advertiseImageFile" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="button-part mt-4">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <input type="submit" value="Submit" class="btn btn-primary" />
+
+                            </div>
+                            <div class="col-md-10">
+                                <a asp-action="Index" asp-controller="Advertisement" class="btn btn-danger">Back To Index</a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+﻿@model Megazine.Models.Advertisement.Advertisement;
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Are You Sure want to delete???</h1>
+<form asp-action="Delete">
+    <div class="container mt-4">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-3">
+                    @Html.DisplayNameFor(model=>model.Id)
+
+                </div>
+                <div class="col-md-9">
+                    @Html.DisplayFor(model=>model.Id)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    @Html.DisplayNameFor(model=>model.OwenerName)
+
+                </div>
+                <div class="col-md-9">
+                    @Html.DisplayFor(model=>model.OwenerName)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    @Html.DisplayNameFor(model=>model.Amount)
+
+                </div>
+                <div class="col-md-9">
+                    @Html.DisplayFor(model=>model.Amount)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    @Html.DisplayNameFor(model=>model.advertiseImage)
+
+                </div>
+                <div class="col-md-9">
+                    @Html.DisplayFor(model=>model.advertiseImage)
+                </div>
+            </div>
+            
+
+            <div class="row mt-5">
+                <div class="col-md-2">
+                    <input type="submit" class="btn btn-danger" />
+
+                </div>
+                <div class="col-md-9">
+                    <a asp-action="Index" class="btn btn-danger">Back To Index</a>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+</form>
+

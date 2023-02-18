@@ -1,0 +1,139 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.head{
+    font-weight:bold;
+    font-size:40px;
+    font-family:'Baskerville Old Face'
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+   
+    padding: 14px;
+}
+
+.news-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.journal .news-title {
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    font-size: 12px;
+}
+
+.article {
+    font-size: 20px;
+}
+
+.ad-banner .banner {
+    border: 2px solid rgb(193, 204, 214);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.recent {
+    background-color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-title {
+    font-size: 24px;
+}
+.updated-news {
+    height: 650px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+.updated-news .updated-img img {
+    max-width: 100%;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+.category {
+    font-size: 15px;
+    color: rgb(193, 204, 214);
+}
+
+.updated-news .news-title {
+    font-size: 15px;
+}
+
+.updated-news .news-time {
+    font-size: 10px;
+}
+
+
+
+.admin-pages{
+    display: flex;
+    padding: 10px;
+    justify-content:center;
+    background-color:aliceblue;
+}
+.dashboard-admin {
+    display: flex;
+    height: 170px;
+    justify-content: space-around;
+    border: 2px solid red;
+    box-shadow: 7px 4px 4px black;
+}
+.title-head{
+    display:flex;
+    justify-content:start;
+    font-family:'Akhbar MT';
+    font-weight:bold;
+    font-size:30px;
+    color:red;
+    text-decoration:underline;
+}
+.admin-menu {
+    background-color: black;
+    height: 680px;
+}
+.admin-menu .admin-link {
+        text-decoration: none;
+        color: white;
+        padding:25px;
+}
+.admin-menu .admin-button {
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        
+       
+ }
+
+

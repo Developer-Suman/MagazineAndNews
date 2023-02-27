@@ -1,4 +1,5 @@
-﻿using Megazine.Models.News;
+﻿using Megazine.Infrastructure.IRepository;
+using Megazine.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Headers;
 

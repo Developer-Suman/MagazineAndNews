@@ -1,38 +1,28 @@
 ﻿
 @{
     ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout1.cshtml";
 }
 
 
 
 <div class="article-list">
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-2">
-                <div class="row">
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-2">
-                        <a asp-controller="Admin"><button><i class="fa-solid fa-circle-left"></i></button></a>
-
-                    </div>
-                    <div class="col-md-4">
-                    </div>
-                </div>
-                
-            </div>
-            <div class="col-md-7">
+        <div class="row"">
+          
+            <div class="col-md-10">
                 <h1 class="title-head">List of Articles</h1>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <div class="row">
-                    <div class="col-md-2">
-
-                    </div>
+                    
                     <div class="col-md-6">
-                        <a asp-action="Create" asp-controller="Article" class="btn btn-primary">Create</a>
+                        
                     </div>
                     <div class="col-md-4">
+                        <a asp-action="Create" asp-controller="Article" class="btn btn-primary">Create</a>
+                    </div>
+                    <div class="col-md-2">
                     </div>
                 </div>
                
@@ -41,12 +31,8 @@
        
         <div class="row mt-4">
 
-            
-            <div class="col-md-1">
-                
-
-            </div>
-            <div class="col-md-10">
+            <hr />
+            <div class="col-md-12 table-data mt-3">
                
                 <table class="table table-bordered">
                     <tr>
@@ -77,9 +63,7 @@
                 </table>
 
             </div>
-            <div class="col-md-1">
-               
-            </div>
+          
         </div>
     </div>
 </div>

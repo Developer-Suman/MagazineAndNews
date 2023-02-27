@@ -1,7 +1,9 @@
 ﻿using Megazine.Data;
+using Megazine.Infrastructure.IRepository;
+using Megazine.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace Megazine.Models.News
+namespace Megazine.Infrastructure.Repository
 {
     public class NewsService : INewsService
     {
@@ -45,7 +47,7 @@ namespace Megazine.Models.News
             NewsFromDb.CreatedDate = demoNews.CreatedDate;
             NewsFromDb.Category = demoNews.Category;
 
-            if(demoNews.ImageUrl!= null)
+            if (demoNews.ImageUrl != null)
             {
                 NewsFromDb.ImageUrl = demoNews.ImageUrl;
                 NewsFromDb.ImageName = demoNews.ImageName;

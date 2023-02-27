@@ -1,4 +1,5 @@
-﻿using Megazine.Models.Advertisement;
+﻿using Megazine.Infrastructure.IRepository;
+using Megazine.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Megazine.Controllers

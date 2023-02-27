@@ -1,4 +1,6 @@
-﻿namespace Megazine.Models.News
+﻿using Megazine.Models;
+
+namespace Megazine.Infrastructure.IRepository
 {
     public interface INewsService
     {

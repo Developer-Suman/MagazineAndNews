@@ -1,7 +1,4 @@
 ﻿using Megazine.Models;
-using Megazine.Models.Advertisement;
-using Megazine.Models.Journal;
-using Megazine.Models.News;
 using Microsoft.EntityFrameworkCore;
 
 namespace Megazine.Data

@@ -1,6 +1,8 @@
 ﻿using Megazine.Data;
+using Megazine.Infrastructure.IRepository;
+using Megazine.Models;
 
-namespace Megazine.Models
+namespace Megazine.Infrastructure.Repository
 {
     public class ArticleService : IArticleService
     {

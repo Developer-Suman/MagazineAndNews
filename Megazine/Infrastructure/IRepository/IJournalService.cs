@@ -1,4 +1,6 @@
-﻿namespace Megazine.Models.Journal
+﻿using Megazine.Models;
+
+namespace Megazine.Infrastructure.IRepository
 {
     public interface IJournalService
     {

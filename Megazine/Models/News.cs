@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Linq;
 
-namespace Megazine.Models.News
+namespace Megazine.Models
 {
     public class News
     {
@@ -16,7 +16,7 @@ namespace Megazine.Models.News
         public string Category { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
-        
+
         [NotMapped]
         public IFormFile? ImageUrl { get; set; }
         public string ImageName { get; set; }

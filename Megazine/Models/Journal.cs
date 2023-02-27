@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Megazine.Models.Journal
+namespace Megazine.Models
 {
     public class Journal
     {
@@ -16,6 +16,6 @@ namespace Megazine.Models.Journal
         [NotMapped]
         public IFormFile? JournalImageFile { get; set; }
         public string JournalImage { get; set; }
-        public DateTime CreatedDate { get; set;}
+        public DateTime CreatedDate { get; set; }
     }
 }

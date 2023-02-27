@@ -1,7 +1,5 @@
-﻿using Megazine.Models;
-using Megazine.Models.Advertisement;
-using Megazine.Models.Journal;
-using Megazine.Models.News;
+﻿using Megazine.Infrastructure.IRepository;
+using Megazine.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Dynamic;

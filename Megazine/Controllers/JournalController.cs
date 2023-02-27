@@ -1,4 +1,5 @@
-﻿using Megazine.Models.Journal;
+﻿using Megazine.Infrastructure.IRepository;
+using Megazine.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

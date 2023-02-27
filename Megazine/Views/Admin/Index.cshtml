@@ -1,92 +1,85 @@
-﻿<div class="admin-pages">
-    <h2 style="color:red;">ADMIN DASHBOARD</h2>
-</div>
+﻿
+@{
+    Layout = "~/Views/Shared/_AdminLayout1.cshtml";
+}
 
-<div class="container">
-    <div class="row ">
 
-        <div class="col-md-2 " style="margin:0; padding:0;">
-            <div class="admin-menu">
-                <div class="admin-button">
-                    <a asp-controller="Journal" class=" admin-link">JOURNAL</a>
 
-                </div>
-                <div class="admin-button">
-                    <a asp-controller="Article" class=" admin-link" >ARTICLES</a>
 
-                </div>
-                <div class="admin-button">
-                    <a asp-controller="News" class=" admin-link">NEWS</a>
-
-                </div>
-
-                <div class="admin-button">
-                    <a asp-controller="Advertisement" class=" admin-link">ADVERTISEMENT</a>
-
-                </div>
-                <div class="admin-button">
-                    <a asp-controller="Article" class=" admin-link">REPORT</a>
-
-                </div>
-                <div class="admin-button">
-                    <a asp-controller="Home" class=" admin-link" style="background-color:red; padding:5px; margin-left:22px; padding-right:60px;">LOGOUT</a>
-
-                </div>
-      
-
-            </div>
+       
             
-
-        </div>
-        <div class="col-md-10">
-            
-            <div class="row">
+             <div class="row">
+                
                 <div class="col-md-6">
-                    <div class="dashboard-admin mt-5">
-                        <h3 class="mt-5">Journal Section</h3>
+                    <div class=" dashboard-admin mt-5">
+                        <div id="chart"></div>
+
                     </div>
+                    
+                  
                     
                 </div>
                 <div class="col-md-6">
-                    <div class="dashboard-admin mt-5">
-                <h3 class="mt-5">Article Section</h3>
-            </div>
-                </div>
-            </div>
+                    <div class="admin-comment mt-5">
+                        <div class="row mt-5">
+                            <div class="col-md-4 " style="display:flex; justify-content:center;">
+                                <i class='fa-solid fa-user-group' style='color: blue; font-size:50px;'></i>
+                                <h4 class="count">30294</h4>
+                                <hr />
+                            </div>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="dashboard-admin mt-5">
-                <h3 class="mt-5">News Section</h3>
-            </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="dashboard-admin mt-5">
-                <h3 class="mt-5">Advertisement Section</h3>
-            </div>
-                </div>
-            </div>
+                            <div class="col-md-4" style="display:flex; justify-content:center;">
+                                <i class='fa fa-comments' style='color:#39f3c5; font-size:50px;'></i>
+                                <h4 class="count">294</h4>
+                            </div>
+                            <div class="col-md-4" style="display:flex; justify-content:center;">
+                                <i class='fa-solid fa-face-grin-beam' style='color: #f3da35;font-size:50px;'></i>
+                                <h4 class="count">2094</h4><br />
 
-            <div class="row">
-                <div class="col-md-3">
+                            </div>
+                        </div>
 
-                </div>
-                <div class="col-md-6">
-                    <div class="dashboard-admin mt-5">
-                        <h3 class="mt-5">Report Section</h3>
                     </div>
+                   
                 </div>
-                <div class="col-md-3">
-                </div>
+             </div>
+             <div class="row">
+                <div class="col-md-6" style="margin-top:60px;">
+                    <div class=" mt-5" >
+                            <div class="circle-wrap">
+                                <div class="circle">
+
+                                    <div class="mask full">
+                                        <div class="fill"></div>
+                                    </div>
+
+                                    <div class="mask half">
+                                        <div class="fill"></div>
+                                    </div>
+
+                                    <div class="inside-circle">
+                                        70%
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="progress-bar">Total Percent of the country use this Megazine</div>
+                           
             </div>
-
-
-        </div>
-        
-        
-    </div>
-   
-
-
-
-</div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" mt-5">
+                            <figure id="bar-chart" style="margin-left:40px;">
+                                <h1>Journal and Article Chart</h1>
+                                <div class="row bars">
+                                    <div class="y-axis one" id="yAxis">
+                                    </div>
+                                    <div class="x-axis" id="xAxis">
+                                    </div>
+                                </div>
+                            </figure>
+                            
+            </div>
+                </div>
+             </div>
+ 

@@ -1,6 +1,4 @@
-﻿@using Megazine.Models.Journal;
-@using Megazine.Models.News;
-@using Megazine.Models.Advertisement;
+﻿
 
 @model dynamic
 
@@ -8,29 +6,50 @@
     ViewData["Title"] = "Home Page";
 }
 
+    <div class="row title">
+            <div class="col-md-1">
 
-    <div class="container-fluid ">
-    <div class="title">
-        
-            <h3 class="head">-THE MAGAZINES POST-</h3>
-            
-    </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-2" style="display:flex; justify-content:end; ">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/NOW_Magazine_Official_Logo.png" height="80px"  />
+                    </div>
+                    <div class="col-md-10">
+                       
+                        <h3 class="head">THE ONLINE <span style="color:azure; font-size:30px;">MEGAZINES..."</span></h3>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 search-bar">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-danger">search</button>
+                </div>
+            </div>
+
+
+        </div>
+       
     
-</div>
-<hr />
+    
+   
 
 
 
-    <div class="container mt-5">
+    <div class="container mt-2">
         <div class="row">
+        
 
 
         @foreach (Journal recentjournal in Model.recentJournal)
         {
-            
-                <div class="col-md-6">
+
+            <div class="col-md-7 " style="background-color:azure;">
                     <div class="journal">
-                    <img src="~/Files/@recentjournal.JournalImage" height="400px" width="100%">
+                    <img src="~/Files/@recentjournal.JournalImage" height="550px" width="100%">
 
 
                     </div>
@@ -38,21 +57,24 @@
                 </div>
 
 
-                <div class="col-md-6">
+                <div class="col-md-5" style="background-color:azure;">
                     <p class="article">
                     <div class="news-title">
 
 
-                        <h2 class="heading-title">@recentjournal.Title</h2>
+                        <h2 class="heading-title" style="font-weight:bold;">@recentjournal.Title</h2>
 
                     </div>
 
 
                     @recentjournal.Description
                     </p>
-                <h2 class="author mt-5">By:@recentjournal.Author</h2>
-                    <h2 class="author">Time: 5 hors ago</h2>
+                <h2 class="author mt-5"><i class="fa-solid fa-user"></i> &nbsp @recentjournal.Author</h2>
+                <h2 class="author"><i class="fa-solid fa-clock"></i> &nbsp 5 hors ago</h2>
+
+                
                 </div>
+               
                 
             }
             
@@ -65,57 +87,61 @@
 
         </div>
     </div>
-    </div>
 
 
-<div class="container mt-5">
-    <div class="row">
+
+        
+    <div class="container mt-5">
+
+    <div class="row" style="background-color:azure;">
+        <h2 class="section-title">RECOMMENDED JOURNAL</h2>
+        
         @foreach (Journal journal in Model.Journals)
         {
-            if (journal.Id == 3)
-            {
-                <div class="col-md-6">
-                    <p class="article">
-                        <div class="news-title">
-
-                            <h2 class="heading-title">@journal.Title</h2>
-
-                        </div>
-                        @journal.Description
-                    </p>
-                    <h2 class="author mt-5">By:@journal.Author</h2>
-                    <h2 class="author">Time: 5 hors ago</h2>
-
-
-
-
+            <div class="col-md-4">
+                <div class="journal">
+                    <img src="~/Files/@journal.JournalImage" height="300px" width="100%">
                 </div>
-                <div class="col-md-6">
-                    <div class="journal">
-                        <img src="~/Files/@journal.JournalImage" height="400px" width="100%">
+                <p class="article">
+                    <div class="news-title">
 
+                        <h2 class="heading-title" style="font-weight:bold;">@journal.Title</h2>
 
+                    </div>
+                   @* @journal.Description*@
+                </p>
+               @* <h2 class="author mt-5">By:@journal.Author</h2>
+                <h2 class="author">Time: 5 hors ago</h2>*@
             </div>
+
             
+        }
+
+
+
+                
         </div>
-        }
-        }
+    </div>
+        
 
 
-    </div>
-</div>
-    </div>
+
+    
+
+
+
+
 </section>
-<div class="container-fluid mt-5">
-    <div class="ad-banner">
 
-        @foreach (Advertisement exposeLitedAd in Model.ExposeAdvertsementLimited)
+    <div class=" container ad-banner mt-5">
+
+        @foreach (Advertisement exposeLimitedAd in Model.ExposeAdvertsementLimited)
         {
-            @if (@exposeLitedAd.CreatedDate >= DateTime.UtcNow)
+            if (exposeLimitedAd.CreatedDate > DateTime.Now)
             {
                 <div class="banner">
                     <div>
-                        <img src="~/Files/@exposeLitedAd.advertiseImage" height="100px" width="100%">
+                        <img src="~/Files/@exposeLimitedAd.advertiseImage" height="100px" width="100%">
                     </div>
 
                 </div>
@@ -128,16 +154,16 @@
         
     </div>
 
-</div>
-
 <div class="container mt-5">
+    
     <div class="row">
-        <h2>NEWS</h2>
+        <h2 class="section-title">NEWS</h2>
+        
         <div class="col-md-8">
             
 
 
-            <div class="row">
+            <div class="row" style="background-color:azure;">
 
 
 
@@ -147,7 +173,7 @@
 
                         <div class="col-md-6">
                             <img src="~/Files/@newsLimit.ImageName" width="400" ,height="450">
-                            <h2 class="heading-title">@newsLimit.Title</h2>
+                        <h2 class="heading-title" style="font-weight:bold;">@newsLimit.Title</h2>
                             <div class="row mt-3">
                                 <div class="col-md-2">
                                     <h1 class="category">@newsLimit.Category</h1>
@@ -182,7 +208,7 @@
                 <div class="row mt-3">
                     <div class="col-md-8">
                         <h1 class="category">@news.Category</h1>
-                        <h2 class="news-title">
+                            <h2 class="news-title" style="font-weight:bold;">
                             @news.Title
                         </h2>
                         <h3 class="news-time">5min ago</h3>
@@ -208,21 +234,23 @@
     </div>
 
     <div class="Container mt-5 mb-5">
+        
         <div class="row">
-            <hr />
+            <h2 class="section-title">ARTICLES</h2>
+            
             
                 @foreach (ArticleSecond article in Model.Articles)
                 {
-                <div class="col-md-4">
-                    <h3>@article.Title</h3>
+                <div class="col-md-4 mt-4" style="background-color:azure;">
+                    <h3 style="font-weight:bold;">@article.Title</h3>
                 <p>@article.Description</p>
-                 <h2 class="author mt-5">By:@article.Author</h2>
-                <h2 class="author">Time: 5 hors ago</h2>
+                    <h2 class="author mt-5"><i class="fa-solid fa-user"></i> &nbsp @article.Author</h2>
+                    <h2 class="author"><i class="fa-solid fa-clock"></i> &nbsp 5 hors ago</h2>
             </div>
                     
                 }
                 
-            <hr />
+            <hr class="mt-5" />
         </div>
     </div>
 </div>

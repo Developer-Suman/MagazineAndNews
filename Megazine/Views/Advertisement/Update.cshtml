@@ -1,23 +1,19 @@
-﻿@model Megazine.Models.Advertisement.Advertisement;
+﻿@model Advertisement;
 @{
     ViewData["Title"] = "Update";
 }
 
 <form method="Post" enctype="multipart/form-data" asp-action="Update" asp-controller="Advertisement">
-    <h1>Update Article Data</h1>
+    
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-2">
             </div>
             <div class="col-md-8">
-                <div class="row">
-                    <div class="col-md-3">
-                        @Html.DisplayNameFor(model=>Model.Id)
-                    </div>
-                    <div class="col-md-9">
-                        @Html.DisplayFor(model=>model.Id)
-                    </div>
+                <div style="background-color:#2BA9AF;">
+                    <h1 class="update-header">Update Advertisement Data</h1>
                 </div>
+     
 
                 <div class="row">
                     <div class="col-md-3">
@@ -60,10 +56,10 @@
 
                 <div class="row mt-4">
                     <div class="col-md-2">
-                        <input type="submit" value="Edit" asp-action="Update" class="btn btn-primary" />
+                        <input type="submit" value="UPDATE" asp-action="Update" class="btn btn-primary" />
                     </div>
                     <div class="col-md-10">
-                        <a asp-action="Index" asp-controller="Advertisement" class="btn btn-danger">Back To Index</a>
+                        <a asp-action="Index" asp-controller="Advertisement" class="btn btn-danger">BACK TO INDEX</a>
                     </div>
                 </div>
             </div>

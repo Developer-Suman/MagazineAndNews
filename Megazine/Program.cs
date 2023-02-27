@@ -1,8 +1,6 @@
 using Megazine.Data;
-using Megazine.Models;
-using Megazine.Models.Advertisement;
-using Megazine.Models.Journal;
-using Megazine.Models.News;
+using Megazine.Infrastructure.IRepository;
+using Megazine.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

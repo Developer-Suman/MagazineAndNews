@@ -1,15 +1,18 @@
-﻿@model Megazine.Models.Advertisement.Advertisement;
+﻿@model Advertisement;
 @{
     ViewData["Title"] = "Create";
 }
 
-<h1>Add Your Advertisement</h1>
+
 <div class="add-form">
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-2">
             </div>
             <div class="col-md-7 ">
+                <div style="background-color:#2BA9AF;">
+                    <h1 class="update-header">Add Your Advertisement</h1>
+                </div>
                 <form method="Post" enctype="multipart/form-data" asp-action="Create" asp-controller="Advertisement">
                     <div class="row">
                         <div class="col-md-2">
@@ -40,12 +43,12 @@
 
                     <div class="button-part mt-4">
                         <div class="row">
-                            <div class="col-md-2">
-                                <input type="submit" value="Submit" class="btn btn-primary" />
+                            <div class="col-md-3">
+                                <input type="submit" value="ADD ADVERTISEMENT" class="btn btn-primary" />
 
                             </div>
-                            <div class="col-md-10">
-                                <a asp-action="Index" asp-controller="Advertisement" class="btn btn-danger">Back To Index</a>
+                            <div class="col-md-9">
+                                <a asp-action="Index" asp-controller="Advertisement" class="btn btn-danger">BACK TO ADMIN</a>
 
 
                             </div>

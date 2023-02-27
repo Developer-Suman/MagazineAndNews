@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LWgF2RW1LmwzaDVwRkF9m1hgI5SzAoepwsMCiqiT9os=",
+  "Hash": "y7ycp/6NQiziMZ9IPOi77QmCa64136k89SayH/tRf1w=",
   "Source": "Megazine",
   "BasePath": "_content/Megazine",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\Files\\07196acc-96f7-4f16-9cc9-0fae0b50d656_Mitsubishi-1230x100-F02.gif"
     },
     {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\08a16b14-6b22-4803-9d66-53403d0926d9_Mitsubishi-1230x100-F02.gif",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/08a16b14-6b22-4803-9d66-53403d0926d9_Mitsubishi-1230x100-F02.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\08a16b14-6b22-4803-9d66-53403d0926d9_Mitsubishi-1230x100-F02.gif"
+    },
+    {
       "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\09e961fa-86a5-4918-adbe-7b532704caeePrachanda-Toshima-Shishir0.jpg",
       "SourceId": "Megazine",
       "SourceType": "Discovered",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\0e9949d9-b590-403a-b51a-69342837083920181230034149_1111.jpg"
+    },
+    {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\14b1723d-f225-4f98-a20a-af18804a9c09_sastoshare-discount-2.png",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/14b1723d-f225-4f98-a20a-af18804a9c09_sastoshare-discount-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\14b1723d-f225-4f98-a20a-af18804a9c09_sastoshare-discount-2.png"
     },
     {
       "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\20a0f568-2459-4445-93e2-853ceab12887s.png",
@@ -287,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\30471eb3-12b6-4272-912e-53d1d37816b3Sakela.png"
+    },
+    {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\36396a62-4277-4735-a9ee-6d19398fe605_Mitsubishi-1230x100-F02.gif",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/36396a62-4277-4735-a9ee-6d19398fe605_Mitsubishi-1230x100-F02.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\36396a62-4277-4735-a9ee-6d19398fe605_Mitsubishi-1230x100-F02.gif"
     },
     {
       "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\39d289f9-b015-4f6a-9609-a5f56ff37d80Badhi-biratnagar.jpg",
@@ -459,6 +510,23 @@
       "OriginalItemSpec": "wwwroot\\Files\\459f67d0-212e-4a09-83b0-290019164ad0Badhi-biratnagar.jpg"
     },
     {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\499a1c6b-5482-474e-b0f2-41a03b843f72_sastoshare-discount-1.gif",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/499a1c6b-5482-474e-b0f2-41a03b843f72_sastoshare-discount-1.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\499a1c6b-5482-474e-b0f2-41a03b843f72_sastoshare-discount-1.gif"
+    },
+    {
       "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\4d4b55ba-71df-457a-a905-216d654b7ce2_OIP (1).jpg",
       "SourceId": "Megazine",
       "SourceType": "Discovered",
@@ -474,6 +542,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\4d4b55ba-71df-457a-a905-216d654b7ce2_OIP (1).jpg"
+    },
+    {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\505b9961-4484-4bcc-a4ba-f76776c2a006_Mitsubishi-1230x100-F02.gif",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/505b9961-4484-4bcc-a4ba-f76776c2a006_Mitsubishi-1230x100-F02.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\505b9961-4484-4bcc-a4ba-f76776c2a006_Mitsubishi-1230x100-F02.gif"
     },
     {
       "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\5b62d9fd-89df-4058-a8a7-a2dc92a1a5f8sastoshare-discount-2.png",
@@ -748,6 +833,40 @@
       "OriginalItemSpec": "wwwroot\\Files\\886b38c8-2f8e-483c-bc9e-051c60c10877_Mitsubishi-1230x100-F02.gif"
     },
     {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\90e61818-f9b8-4073-bd36-b5fdbe3e3c06150850453_2824557697816898_2921694484577969802_n.jpg",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/90e61818-f9b8-4073-bd36-b5fdbe3e3c06150850453_2824557697816898_2921694484577969802_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\90e61818-f9b8-4073-bd36-b5fdbe3e3c06150850453_2824557697816898_2921694484577969802_n.jpg"
+    },
+    {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\945ff250-03bf-4a44-ae41-49e70da0d4f4_Mitsubishi-1230x100-F02.gif",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/945ff250-03bf-4a44-ae41-49e70da0d4f4_Mitsubishi-1230x100-F02.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\945ff250-03bf-4a44-ae41-49e70da0d4f4_Mitsubishi-1230x100-F02.gif"
+    },
+    {
       "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\94de0df7-6d3b-44c7-b81d-806291bc0269_302350691_1733336930379716_1407354810056831980_n.jpg",
       "SourceId": "Megazine",
       "SourceType": "Discovered",
@@ -935,6 +1054,23 @@
       "OriginalItemSpec": "wwwroot\\Files\\b550b31a-4ced-47c2-9388-6800ba096577OIP (1).jpg"
     },
     {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\b76ea114-1d57-49b0-b47d-7364b713322b20181230034149_1111.jpg",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/b76ea114-1d57-49b0-b47d-7364b713322b20181230034149_1111.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\b76ea114-1d57-49b0-b47d-7364b713322b20181230034149_1111.jpg"
+    },
+    {
       "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\b80608d5-db9d-4fa5-bc70-cc6072ee4f303.png",
       "SourceId": "Megazine",
       "SourceType": "Discovered",
@@ -1001,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\c9d96914-d8a1-480b-ad7e-2f1b3445cb00_Mitsubishi-1230x100-F02.gif"
+    },
+    {
+      "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\cbf65af8-142d-4358-8fb4-3ed3792e4d62_sastoshare-discount-1.gif",
+      "SourceId": "Megazine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\",
+      "BasePath": "_content/Megazine",
+      "RelativePath": "Files/cbf65af8-142d-4358-8fb4-3ed3792e4d62_sastoshare-discount-1.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\cbf65af8-142d-4358-8fb4-3ed3792e4d62_sastoshare-discount-1.gif"
     },
     {
       "Identity": "E:\\.NET Internship\\Megazine\\Megazine\\wwwroot\\Files\\d66396d2-81c2-4c79-89fe-ec3ac496a7ddnews_1658936416.jpg",

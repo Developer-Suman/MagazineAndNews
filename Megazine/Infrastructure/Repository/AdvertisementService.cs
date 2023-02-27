@@ -1,7 +1,9 @@
 ﻿using Megazine.Data;
+using Megazine.Infrastructure.IRepository;
+using Megazine.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Megazine.Models.Advertisement
+namespace Megazine.Infrastructure.Repository
 {
 
     public class AdvertisementService : IAdvertisementService
@@ -43,8 +45,8 @@ namespace Megazine.Models.Advertisement
             AdvertiseFromDb.OwenerName = demoAdvertisement.OwenerName;
             AdvertiseFromDb.CreatedDate = demoAdvertisement.CreatedDate;
             AdvertiseFromDb.Amount = demoAdvertisement.Amount;
-            
-            if(demoAdvertisement.advertiseImageFile!= null)
+
+            if (demoAdvertisement.advertiseImageFile != null)
             {
                 AdvertiseFromDb.advertiseImageFile = demoAdvertisement.advertiseImageFile;
                 AdvertiseFromDb.advertiseImage = demoAdvertisement.advertiseImage;

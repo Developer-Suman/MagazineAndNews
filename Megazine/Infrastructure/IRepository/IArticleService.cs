@@ -1,4 +1,6 @@
-﻿namespace Megazine.Models
+﻿using Megazine.Models;
+
+namespace Megazine.Infrastructure.IRepository
 {
     public interface IArticleService
     {

@@ -1,10 +1,9 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Linq;
 
-namespace Megazine.Models.Advertisement
+namespace Megazine.Models
 {
     [Table("Advertisements")]
     public class Advertisement

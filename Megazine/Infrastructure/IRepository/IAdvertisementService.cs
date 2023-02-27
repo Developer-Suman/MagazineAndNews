@@ -1,4 +1,6 @@
-﻿namespace Megazine.Models.Advertisement
+﻿using Megazine.Models;
+
+namespace Megazine.Infrastructure.IRepository
 {
     public interface IAdvertisementService
     {
